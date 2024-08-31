@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 
+  -- #PRIMARY META TAGS
+   -->
+  <title>Desserts</title>
+  <meta name="title" content="Desserts">
+  <meta name="description" content="This is a Product List Design -- Using HTML CSS & JavaScript">
+
+  <!-- 
+  -- #CUSTOM CSS LINK
+   -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+  -- #GOOGLE FONT LINK
+   -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    -- #CUSTOM JS LINK
+     -->
+  <script type="module" src="./assets/js/main.js" defer></script>
+
+</head>
+
+<body>
+
+
+  <!-- MAIN -->
+
+  <main>
+    <article class="container hero__container">
+
+      <!-- PRODUCT SECTION -->
+
+      <section class="product" aria-label="product">
+        <h1 class="section_title">Desserts</h1>
+
+        <div class="product_list" id="ProductList" data-product-list>
+
+
+          <div class="product_card">
+
+            <div class="card_banner">
+              <figure class="img_holder" style="--width:502px; --height:480px;">
+                <img src="./assets/images/image-waffle-desktop.jpg" width="502" height="480" alt="Waffle with Berries"
+                  class="img_cover responsive_image">
+              </figure>
+              <button class="add_to_cart">
+                <img src="./assets/images/icon-add-to-cart.svg" alt="" class="cart_icon">
+                <span>Add to cart</span>
+              </button>
+            </div>
+
+
+            <div class="card_content">
+              <h2 class="category_name">Waffle</h2>
+              <h1 class="card_title">Waffle with Berries</h1>
+              <div class="card_price">$6.50</div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="cart">
+
+        <h1 class="cart_title" data-cart-title>Your Cart <span class="count_quantity">(0)</span></h1>
+
+        <ul class="cart_list" id="cartList" data-cart-list>
+          <div class="empty_cart" style="display: flex;">
+            <img src="./assets/images/illustration-empty-cart.svg" alt="">
+            <span>Your added items will appear here.</span>
+          </div>
+
+          <!-- <li class="cart_item">
+            <div class="item_details">
+              <h2 class="card_title">Vanilla Panna Cotta</h2>
+              <div class="item_wrapper">
+                <div class="quantity_count">1x</div>
+                <div class="cart_price">@ $54.66</div>
+                <div class="cart_m_price">$65.43</div>
+              </div>
+            </div>
+
+            <div class="cross_icon">
+              <img src="./assets/images/icon-remove-item.svg" alt="">
+            </div>
+          </li> -->
+
+        </ul>
+
+        <div class="cart_bottom">
+
+          <div class="bottom_wrapper">
+            <div class="total_price-box">
+              <h3>Order Total</h3>
+              <h1 class="total_price" id="totalPrice">$50.46</h1>
+            </div>
+            <div class="delivery_text">
+              <img src="./assets/images/icon-carbon-neutral.svg" alt="">
+              <p>This is a <span style="color: var(--rose-900);"> Carbon-Neutral</span> delivery</p>
+            </div>
+          </div>
+          <button class="comfirmed_btn">Confirm Order</button>
+        </div>
+
+      </section>
+
+    </article>
+  </main>
+
+  <!-- Desserts
+
+  Waffle with Berries
+  Waffle
+  6.50
+  Add to Cart
+
+  Vanilla Bean Crème Brûlée
+  Crème Brûlée
+  7.00
+  Add to Cart
+
+  Macaron Mix of Five
+  Macaron
+  8.00
+  Add to Cart
+
+  Classic Tiramisu
+  Tiramisu
+  5.50
+  Add to Cart
+
+  Pistachio Baklava
+  Baklava
+  4.00
+  Add to Cart
+
+  Lemon Meringue Pie
+  Pie
+  5.00
+  Add to Cart
+
+  Red Velvet Cake
+  Cake
+  4.50
+  Add to Cart
+
+  Salted Caramel Brownie
+  Brownie
+  4.50
+  Add to Cart
+
+  Vanilla Panna Cotta
+  Panna Cotta
+  6.50
+  Add to Cart
+
+  Your Cart (Quantity)
+  Your added items will appear here
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
